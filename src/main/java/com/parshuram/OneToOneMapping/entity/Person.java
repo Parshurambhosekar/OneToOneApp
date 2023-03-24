@@ -118,4 +118,13 @@ public class Person {
     public Person(){
 
     }
+
+    public Person(Integer id, String name, String city, String gender, Long mobileNumber, String email) {
+        this.id = id;
+        this.name = name;
+        this.city = city;
+        this.gender = gender;
+        this.mobileNumber = mobileNumber;
+        this.email = email;
+    }
 }

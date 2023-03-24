@@ -40,7 +40,7 @@ public class PassportController {
 
         passportService.deletePassport(passportNumber);
 
-        return new ResponseEntity<ApiResponse>(new ApiResponse("Deleted Successfully.........",true),HttpStatus.OK);
+        return new ResponseEntity<ApiResponse>(new ApiResponse("Deleted Successfully..........",true),HttpStatus.OK);
     }//ok
 
     @GetMapping("/")
@@ -74,8 +74,5 @@ public class PassportController {
 
         return ResponseEntity.ok().body(passportByState);//ok
     }
-
-
-
 
 }
